@@ -17,10 +17,11 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    // ログイン後のリダイレクト先が/になるよう修正を行います。
+    public const HOME = '/';
 
     /**
-     * The controller namespace for the application.
+     * The controller namespace fo/home/kohsai/coachtech/laravel/mockexam-atte/src/resources/lang/jar the application.
      *
      * When present, controller route declarations will automatically be prefixed with this namespace.
      *

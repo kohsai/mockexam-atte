@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'ja',
 
     /*
     |--------------------------------------------------------------------------
@@ -174,6 +174,12 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        App\Providers\FortifyServiceProvider::class,
+// サービスプロバイダの追加
+// Laravel において、サービスプロバイダとは、アプリケーションの起動処理の初めの心臓部分を指します。
+
+// providersに Fortify を登録することで、Fortify を起動できるようにしています。
 
     ],
 

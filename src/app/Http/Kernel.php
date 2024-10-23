@@ -53,8 +53,14 @@ class Kernel extends HttpKernel
      *
      * @var array<string, class-string|string>
      */
+
+
+// 認証ミドルエアの仕組み
+// Laravel では、デフォルトでいくつかのミドルウエアが登録されています。 登録されているミドルウエアは、app/Http/ディレクトリ以下のKernel.phpに記述されています。
     protected $routeMiddleware = [
         'auth' => \App\Http\Middleware\Authenticate::class,
+        // ↑　ミドルウエアauthを指定すると、\App\Http\Middleware\ディレクトリ以下にあるAuthenticate . phpのクラスを指定指定していることを表しています。
+
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
         'can' => \Illuminate\Auth\Middleware\Authorize::class,

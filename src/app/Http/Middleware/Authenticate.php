@@ -19,3 +19,10 @@ class Authenticate extends Middleware
         }
     }
 }
+// Authenticate.phpをみてみると、Illuminate\Auth\Middleware\Authenticateから継承されたクラスが指定されています。
+
+// Illuminate\Auth\Middleware\Authenticate でログインをしているかどうかの判定を行う。
+// ログインされていなければ、return route('login')で /login リダイレクトされる。
+
+// このようにミドルウエアは、元々Laravelに用意されているものなので、「なんでそうなるのか？」が読み取りにくいです。
+// 「authのミドルウエアを使用するとログイン画面にリダイレクトされるようになっている」 ことだけ捉えておきましょう。
