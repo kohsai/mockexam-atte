@@ -21,7 +21,7 @@
 【　環境構築　】
 Dockerビルド
 
-git@github.com：kosai/mockexam-atte/.git
+git@github.com:kohsai/mockexam-atte.git
 
 DockerDesktopアプリを立ち上げる
 
@@ -66,6 +66,7 @@ php artisan migrate
 【　ER図　】
 
 ![image](https://github.com/user-attachments/assets/3ce1b152-f54a-4634-8096-660f7eac6f63)
+
 /home/kohsai/coachtech/laravel/mockexam-atte/mockexam.drawio.svg
 
 【　URL　】
