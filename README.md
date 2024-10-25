@@ -1,15 +1,15 @@
-サービス名：Atte（アット）
+【　サービス名：Atte（アット）　】
 
 
 ![スクリーンショット 2024-09-20 164513](https://github.com/user-attachments/assets/be883b52-a7a2-44fa-95a3-bee9b89b2ffe)
 
 
 
-概要：ある企業の勤怠管理システム
+【　概要　】：ある企業の勤怠管理システム
 
-目的：人事評価のため
+【　目的　】：人事評価のため
 
-機能一覧：
+【　機能一覧　】：
 
 /register	会員登録ページ
 
@@ -19,6 +19,7 @@
 
 
 【　環境構築　】
+
 Dockerビルド
 
 git@github.com:kohsai/mockexam-atte.git
@@ -47,11 +48,11 @@ DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 
 
-アプリケーションキーの作成
+【　アプリケーションキーの作成　】
 php artisan key:generate
 
 
-マイグレーションの実行
+【　マイグレーションの実行　】
 php artisan migrate
 
 
